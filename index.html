@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Application Paint simple</title>
+    <script src="./js/app.js" defer></script>
+</head>
+<body>
+    <h1>Application Paint simple</h1>
+    <button id="pencilBtn">Pinceau</button>
+    <button id="rectBtn">Rectangle</button>
+    <button id="circleBtn">Cercle</button>
+    <button id="starBtn">Étoile</button>
+    <input id="colorPicker" type="color">
+    <input id="brushSize" type="range" min="1" max="50" value="5">
+    
+    <button id="fillBtn">Pot de peinture</button>
+    <button id="eraserBtn">Gomme</button>
+    <button id="undoBtn">Annuler (Ctrl+Z)</button>
+    <button id="redoBtn">Refaire (Ctrl+Y)</button>
+    <input type="file" id="imageLoader" style="display:none;">
+    <button id="pasteBtn">Coller image</button>
+    
+<input type="file" id="imageInput" style="display:none" accept="image/*">
+
+<canvas id="myCanvas" width="1000" height="800" style="border:1px solid;"></canvas>
+
+</body>
+</html>
